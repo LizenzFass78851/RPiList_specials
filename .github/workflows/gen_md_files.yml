@@ -22,7 +22,7 @@ jobs:
     container:
       image: ubuntu:24.04
     runs-on: ubuntu-latest
-    if: github.repository == 'RPiList/specials'
+  #  if: github.repository == 'RPiList/specials'
 
     steps:
       - name: key
