@@ -2,7 +2,7 @@ name: generate selected *.md files
 
 on:
   push:
-    branches: [ master ]
+    branches: [ test ]
     paths:
       - '.github/workflows/gen_md_files.yml'
       - '.github/scripts/gen_*.sh'
